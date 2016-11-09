@@ -4,7 +4,7 @@ from socket import *
 serverName = '192.168.182.128'
 #port number
 serverPort = 12000
-#create a udp socket
+#create a client socket (UDP)
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 while True:
 	message = raw_input('-->')
